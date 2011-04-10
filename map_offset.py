@@ -23,6 +23,12 @@ def gps2gmap(lat,lng):
 	else:
 		return lat,lng
 
+def gps2bmap(lat,lng):
+	pass
+
+def gps2sgmap(lat,lng):
+	pass
+
 def latlng_dis(lat1,lng1,lat2,lng2):
 	radlat1,radlat2,radlng1,radlng2 = lat1 * math.pi/180.0,lat2 * math.pi/180.0,lng1 * math.pi/180.0,lng2 * math.pi/180.0
 	a = radlat1 - radlat2
